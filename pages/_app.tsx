@@ -12,12 +12,10 @@ import "@ionic/core/css/text-alignment.css";
 import "@ionic/core/css/text-transformation.css";
 import "@ionic/core/css/typography.css";
 import { defineCustomElements as ionDefineCustomElements } from "@ionic/core/loader";
-import { useEffect } from "react";
+import "../styles/theme/variables.css";
 
+ionDefineCustomElements();
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    ionDefineCustomElements();
-  }, []);
   return (
     <ion-app>
       <Component {...pageProps} />
