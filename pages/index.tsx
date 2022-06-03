@@ -9,7 +9,7 @@ export default function Home() {
           <ion-buttons collapse slot="end">
             <ion-button>Click Me</ion-button>
           </ion-buttons>
-          <ion-title>Settings</ion-title>
+          <ion-title>One</ion-title>
         </ion-toolbar>
       </ion-header>
 
@@ -19,7 +19,7 @@ export default function Home() {
             <ion-buttons collapse slot="end">
               <ion-button>Click Me</ion-button>
             </ion-buttons>
-            <ion-title size="large">Settings</ion-title>
+            <ion-title size="large">One</ion-title>
           </ion-toolbar>
           <ion-toolbar>
             <ion-searchbar></ion-searchbar>
